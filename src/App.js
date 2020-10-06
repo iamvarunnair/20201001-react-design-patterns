@@ -468,6 +468,8 @@ class List extends React.PureComponent {
     }
 } */
 
+/* // After running copy item names into input and add another item by clicking the add button.
+// You'll see the problem with using indexes as keys
 class List extends React.PureComponent {
     constructor(props) {
         super(props);
@@ -498,7 +500,7 @@ class List extends React.PureComponent {
             </div>
         );
     }
-}
+} */
 
 function App() {
     return (
@@ -517,7 +519,7 @@ function App() {
                     <NewButton />
                 </StyleRoot> */}
                 {/* <EnhancedButton /> */}
-                <List />
+                {/* <List /> */}
                 {/* <Todos /> */}
                 {/* <Counter initialCount={1} /> */}
             </header>
